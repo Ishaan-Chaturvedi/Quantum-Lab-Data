@@ -1,0 +1,148 @@
+% SampleReportTemplate.tex
+\documentclass[11pt,a4paper]{report}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{braket}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}        % nice units and uncertainties
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{titling}       % for custom titlepage fields
+\usepackage{enumitem}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+% Page geometry and spacing
+\geometry{
+  left=30mm,
+  right=25mm,
+  top=25mm,
+  bottom=30mm,
+  headsep=10pt
+}
+\onehalfspacing
+
+% Header / Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Quantum Laboratory}
+\fancyhead[R]{\small \LabTitle}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Metadata commands (edit these)
+\newcommand{\LabTitle}{Fundamentals of Quantum Optics}
+\newcommand{\ContactName}{Prof. Frank Setzpfandt}
+\newcommand{\ContactAffil}{Friedrich-Schiller-Universit\"at Jena\\Abbe School of Photonics}
+
+\newcommand{\ContactPhone}{+49 (0) 3641 947569}
+\newcommand{\ContactEmail}{f.setzpfandt@uni-jena.de}
+
+
+
+\newcommand{\TAName}{Inmaculada Pérez Pérez}
+\newcommand{\DateOfLab}{November 13, 2025}
+\newcommand{\DateOfFinalReport}{November 19, 2025}
+
+% Titlepage
+% \pretitle{\begin{titlepage}\begin{center}\vspace*{10mm}}
+% \posttitle{\end{center}
+% \end{titlepage}}
+\setlength{\droptitle}{-5mm}
+
+\begin{document}
+
+% ---------- Custom Title Page ----------
+\begin{titlepage}
+  \begin{flushleft}
+    \textbf{Contact person:}\\[2mm]
+    \ContactName\\
+    \ContactAffil\\
+    Phone: \ContactPhone, \\
+    e-mail: \texttt{\ContactEmail}\\[10mm]
+
+  \end{flushleft}
+
+  \vspace{20mm}
+
+  \begin{center}
+    {\LARGE\bfseries \LabTitle \par}
+    \vspace{15mm}
+
+    \begin{tabular}{ll}
+      \textbf{Lab Title}:    & \LabTitle \\[2mm]
+      \textbf{Group number}: & 5 \\[2mm]
+      \textbf{Student name}: & Ishaan Chaturvedi \\[2mm]
+      \textbf{Name of Teaching Assistant}: & \TAName \\[2mm]
+      \textbf{Date of Lab}: & \DateOfLab \\[2mm]
+      \textbf{Date of Report Submission}: & \DateOfFinalReport \\
+    \end{tabular}
+  \end{center}
+
+  \vfill
+  \begin{center}
+    {\large \textbf{Quantum Laboratory}}\\[2mm]
+    \textit{Abbe School of Photonics, Friedrich-Schiller-Universit\"at Jena}
+  \end{center}
+\end{titlepage}
+% ---------- End Title Page ----------
+
+\pagenumbering{roman}
+\tableofcontents
+\cleardoublepage
+\pagenumbering{arabic}
+
+% ================= Sections =================
+
+\section{Introduction}
+
+\section{Theory}
+
+\section{Experimental Realization}
+
+\section{Measurement Results and Analysis}
+
+\section{Conclusions}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ================ Bibliography ==================
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\begin{thebibliography}{9}
+\bibitem{nasa:speedofsound}
+ NASA, \emph{Speed of Sound}, Online resource. % Provide URL or further info
+\bibitem{nordling:physics}
+ C.~Nordling and J.~Ostermann, \emph{Physics Handbook for Science and Engineering}, 8th ed., Studentlitteratur, 2006.
+\bibitem{heatcap:gases}
+ Heat Capacity Ratio for Gases, Online resource.
+\bibitem{wikipedia}
+ Wikipedia, Online encyclopedia.
+\end{thebibliography}
+
+% Optional: if you use biblatex:
+% \printbibliography
+
+\end{document}
