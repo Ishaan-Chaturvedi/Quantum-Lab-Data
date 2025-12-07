@@ -1,6 +1,6 @@
-PWD c:\Users\ishaa\Downloads\Quantum Laboratory\Quantum-Lab-Data\BB84
+PWD c:\Users\ishaa\Downloads\Quantum Laboratory\Quantum-Lab-Data\BB84\BB84 Latex
 INPUT C:\Users\ishaa\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ishaa\Downloads\Quantum Laboratory\Quantum-Lab-Data\BB84\bb84.tex
+INPUT c:\Users\ishaa\Downloads\Quantum Laboratory\Quantum-Lab-Data\BB84\BB84 Latex\bb84.tex
 OUTPUT bb84.log
 INPUT C:\Users\ishaa\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\ishaa\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls

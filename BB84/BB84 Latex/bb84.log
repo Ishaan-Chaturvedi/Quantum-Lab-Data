@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.6)  7 DEC 2025 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.6)  7 DEC 2025 18:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/ishaa/Downloads/Quantum Laboratory/Quantum-Lab-Data/BB84/bb84.tex"
-(c:/Users/ishaa/Downloads/Quantum Laboratory/Quantum-Lab-Data/BB84/bb84.tex
+**"c:/Users/ishaa/Downloads/Quantum Laboratory/Quantum-Lab-Data/BB84/BB84 Latex/bb84.tex"
+(c:/Users/ishaa/Downloads/Quantum Laboratory/Quantum-Lab-Data/BB84/BB84 Latex/bb84.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
 (C:\Users\ishaa\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -531,12 +531,12 @@ Package rerunfilecheck Info: File `bb84.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  17714 strings out of 467871
- 343702 string characters out of 5418376
+ 343812 string characters out of 5418376
  730073 words of memory out of 5000000
  46357 multiletter control sequences out of 15000+600000
  642202 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,80p,377b,1183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,80p,388b,1183s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on bb84.pdf (7 pages, 218120 bytes).
 PDF statistics:
