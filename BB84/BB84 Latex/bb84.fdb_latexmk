@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1765127547.99005 "c:/Users/ishaa/Downloads/Quantum Laboratory/Quantum-Lab-Data/BB84/BB84 Latex/bb84.tex" "bb84.pdf" "bb84" 1765127549.30098 0
+["pdflatex"] 1765127637.2294 "c:/Users/ishaa/Downloads/Quantum Laboratory/Quantum-Lab-Data/BB84/BB84 Latex/bb84.tex" "bb84.pdf" "bb84" 1765127638.88757 0
   "C:/Users/ishaa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765037185 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ishaa/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1765037270 28976 2d5215c218206b60b2e02b1af569d63f ""
   "C:/Users/ishaa/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1765037264 31952 90207591f61a590cde28e52bb8c32e18 ""
@@ -118,11 +118,11 @@
   "C:/Users/ishaa/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644048522 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/ishaa/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/ishaa/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "bb84.aux" 1765127549 2393 9fb469ddfbb6b0b5d8689283aef6e024 "pdflatex"
-  "bb84.out" 1765127549 1706 0cc9678388262c24d17bd2caefb652a3 "pdflatex"
-  "bb84.tex" 1765127326 13584 44d01e9448251317d50848ef2a568b17 ""
-  "bb84.toc" 1765127549 1065 d1e6e5ef7900a65e1de1a2b580ec86c8 "pdflatex"
-  "c:/Users/ishaa/Downloads/Quantum Laboratory/Quantum-Lab-Data/BB84/BB84 Latex/bb84.tex" 1765127326 13584 44d01e9448251317d50848ef2a568b17 ""
+  "bb84.aux" 1765127638 2393 9fb469ddfbb6b0b5d8689283aef6e024 "pdflatex"
+  "bb84.out" 1765127638 1706 0cc9678388262c24d17bd2caefb652a3 "pdflatex"
+  "bb84.tex" 1765127636 13574 76e3b2cd672514e66c71299e899a4a9f ""
+  "bb84.toc" 1765127638 1065 d1e6e5ef7900a65e1de1a2b580ec86c8 "pdflatex"
+  "c:/Users/ishaa/Downloads/Quantum Laboratory/Quantum-Lab-Data/BB84/BB84 Latex/bb84.tex" 1765127636 13574 76e3b2cd672514e66c71299e899a4a9f ""
   "setup.png" 1765123935 53698 2f44a3112edc5da3818989cea68ea7db ""
   (generated)
   "bb84.aux"
