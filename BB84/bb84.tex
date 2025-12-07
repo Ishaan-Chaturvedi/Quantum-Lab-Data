@@ -48,9 +48,9 @@
 
 
 
-\newcommand{\TAName}{Inmaculada Pérez Pérez}
-\newcommand{\DateOfLab}{November 13, 2025}
-\newcommand{\DateOfFinalReport}{November 19, 2025}
+\newcommand{\TAName}{Sabine H\"aussler}
+\newcommand{\DateOfLab}{December 4, 2025}
+\newcommand{\DateOfFinalReport}{December 11, 2025}
 
 % Titlepage
 % \pretitle{\begin{titlepage}\begin{center}\vspace*{10mm}}
@@ -103,8 +103,56 @@
 % ================= Sections =================
 
 \section{Introduction}
-eperiment data
+Secure Communication has always been an important 
 \section{Theory}
+In conventional cryptography, the information is shared using public keys for encryption
+and private keys for decryption. However, the security of these methods 
+relies on the computational difficulty of a computer. For example, RSA method
+utilises the fact that it is much harder to factorise a 
+number into its prime factors than to multiply two prime numbers together. However,
+with the advent of quantum computers, we have algorithms like Shor's algorithm
+which can efficiently factorise large numbers, thus breaking the security of RSA.
+So there is a need for cryptographic methods that are secure against such
+attacks. This is where Quantum Key Distribution (QKD) comes into play.  Instead of 
+relying on computational difficulty, QKD used the principles of quantum
+mechanics to ensure that the key distribution is secure. In this experiment we will 
+discuss the BB84 protocol, which is one of the first and most well-known QKD
+protocols. 
+\subsection{BB84 Quantum Key Distribution Protocol}
+BB84 protocol was proposed by Charles Bennett and Gilles Brassard in 1984. It utilises
+the properties of quantum mechanics to securely distribute a cryptographic key.
+Once we share a secret key, we can use it to encrypt and decrypt messages which can now 
+be transmitted using a classical channel. In order to share a key using BB84   
+protocol, we will take two communicating people, conventionally called Alice 
+and Bob, who want to share a secret key. In order to share the key with BB84 protocal 
+they need to follow the following steps:
+\begin{enumerate}
+    \item \textbf{Preparation and Transmission:} Alice randomly selects a sequence of bits
+Here randomness is crucial for the success of the protocol. She also randomly chooses
+a basis (rectilinear or diagonal) for each bit. She will then encode each randomly chosen bit in the 
+polarisation state of the photon according to the randomly chosen basis and sends the photons to BOB.
+    \item \textbf{Bob'Measurement:} Upon receiving the photons, Bob randomly chooses a basis (rectilinear or diagonal) 
+    for measuring each incoming photon. He records the measurement results and store them in the
+    form of bits. Note that the bit encoding scheme for polarisation states is 
+    the same as Alice's encoding scheme. However, since Bob is choosing his measurement
+    basis randomly, there will be instances where his chosen basis does not match
+    Alice's encoding basis. Thus to make sense of the bits, they
+    will need to communicate over a classical channel.
+    \item \textbf{Classical communication}: Now Alice and Bob communicate over
+    a classical channel. Bob tells Alice which basis he used for each measurement,
+    but he will not reveal the measurement results. Alice then reveals to Bob
+    which measurements were done in the correct basis. They will discard all thebibliography
+    bits where the measurement basis did not match. The remaining bits constitute
+    the potential secret key.
+    \item \textbf{Error Rate Estimation and eavesdropper detection:} In order to check the security of the 
+     communication channel, Alice 
+
+
+
+\end{enumerate}
+
+\subsection{Quantum States and Bases}
+Information is encoded using four quantum states: $\ket{0}$, $\ket{1}$ in the rectilinear basis, and $\ket{+} = \frac{1}{\sqrt{2}}(\ket{0} + \ket{1})$, $\ket{-} = \frac{1}{\sqrt{2}}(\ket{0} - \ket{1})$ in the diagonal basis. An eavesdropper attempting to intercept the quantum states will introduce detectable errors due to quantum mechanics principles.
 
 \section{Experimental Realization}
 
