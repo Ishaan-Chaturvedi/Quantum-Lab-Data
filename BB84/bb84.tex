@@ -131,7 +131,7 @@ they need to follow the following steps:
 Here randomness is crucial for the success of the protocol. She also randomly chooses
 a basis (rectilinear or diagonal) for each bit. She will then encode each randomly chosen bit in the 
 polarisation state of the photon according to the randomly chosen basis and sends the photons to BOB.
-    \item \textbf{Bob'Measurement:} Upon receiving the photons, Bob randomly chooses a basis (rectilinear or diagonal) 
+    \item \textbf{Bob's Measurement:} Upon receiving the photons, Bob randomly chooses a basis (rectilinear or diagonal) 
     for measuring each incoming photon. He records the measurement results and store them in the
     form of bits. Note that the bit encoding scheme for polarisation states is 
     the same as Alice's encoding scheme. However, since Bob is choosing his measurement
@@ -144,17 +144,69 @@ polarisation state of the photon according to the randomly chosen basis and send
     which measurements were done in the correct basis. They will discard all thebibliography
     bits where the measurement basis did not match. The remaining bits constitute
     the potential secret key.
-    \item \textbf{Error Rate Estimation and eavesdropper detection:} In order to check the security of the 
-     communication channel, Alice 
+    \item \textbf{Error Rate Estimation and eavesdropper detection:} The purpose of the 
+    BB84 protocol is to securely share a key. To do this, Alice and Bob
+    should be able to detect the presence of an eavesdropper (conventionally called Eve).
+    Eve on the other hand wants to intercept the quantum states sent by Alice
+    and measure them to gain information about the key. However, BB84 protocol utilises
+    two important features of quantum mechanics to detect Eve's presence:
+    \begin{itemize}
+        \item \textbf{No-Cloning Theorem:} It is impossible for Eve to have a complete knowledge of the
+        quantum state being transmitted with a single measurement. In order to do so she has to
+         make a copy machine that creates an identical copy of an arbitrary unknown quantum state.
+         But according to no cloning theorem it is not possible to do so. Thus, Eve cannot simply copy
+        the quantum states sent by Alice, measure them and send a copy to Bob.
+        \item \textbf{Measurement Disturbance:} When Eve measures the quantum states, she will
+        project them into one of the basis states. If her chosen measurement basis does not match Alice's encoding basis,
+        she will introduce errors in the measurement results. When Bob measures the states sent by Eve, 
+        he will get incorrect results for those bits where Eve's measurement basis did not match Alice's encoding basis.
+        This will be the case as alice choses a random basis for encoding and this is one of the reasons why randomness is so crucial
+        in the BB84 protocol.
+      \end{itemize}
+      
 
-
+Bob and Alice are able to detect Eve's presence because of these two features. To estimate the error rate,
+they will randomly select a subset of the remaining bits (the ones where Bob's measurement basis matched Alice's encoding basis)
+and compare them over the classical channel. If the error rate is above a certain threshold, they will conclude that Eve is present and abort the key generation process.
+If the error rate is below the threshold, they can conclude that the channel is secure and can use the remaining bits as 
+the secret key. Note that we use a threshold because in practical scenarios, there can be 
+errors due to noise in the channel, detector inefficiencies etc. 
 
 \end{enumerate}
-
-\subsection{Quantum States and Bases}
-Information is encoded using four quantum states: $\ket{0}$, $\ket{1}$ in the rectilinear basis, and $\ket{+} = \frac{1}{\sqrt{2}}(\ket{0} + \ket{1})$, $\ket{-} = \frac{1}{\sqrt{2}}(\ket{0} - \ket{1})$ in the diagonal basis. An eavesdropper attempting to intercept the quantum states will introduce detectable errors due to quantum mechanics principles.
+\subsubsection{Security of Classical Channel}
+      It is necessary for Alice and Bob to communicate over a classical channel to
+      determine the basis matching is secure. This means that even Bob needs to ensure that he is 
+      communicating with Alice and not Eve. This can be done using authentication methods
+      like pre-shared keys or digital signatures. 
 
 \section{Experimental Realization}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[]{setup.png}
+    \caption{Schematic of the experimental setup for BB84 protocol implementation. Source:\cite{}}
+    \label{fig:bb84_setup}
+\end{figure}
+The experimental setup for the implementation of BB84 protocol is shown in figure \ref{fig:bb84_setup}.
+However, in this experiment we will not be using HWP to prepare the states as shown in the figure,
+but a Polariser as our photon source is also producing circularly polarised light. This setup is an educational setup which uses quCR 
+as a central interface for interacting with various components. The Polarisers are connected to qu3MD which
+controls their orientation through a motor. The single photon detectors are in the quCR
+which is connected to the polariser by an optical fibre. We use BBO crystal to generate a photon
+pair through Spontaneous Parametric Down Conversion (SPDC). One photon of the pair is discarded while
+the other is used for the BB84 protocol. The Pump laser is a 405 nm laser diode. This is 
+operated in pulse wave mode to generate weak coherant pulses.
+
+\subsection{Weak coherant Pulses}
+In practical implementations of BB84 protocol, it is difficult to generate
+single photons. They are still an active area of research.  So in this experiment
+we will be using weak coherant pulses. Since attenuating a laser pulse does not change
+its statistical properties,  the probability of having k photon in a pulse is as follows:
+\begin{equation}
+    P(k,\lambda) = \frac{\lambda^k}{k!}e^{-\lambda}
+\end{equation}
+where $\lambda$ is the average photon number per pulse.  Now for BB84 protocol to be secure,
+we want to minimise the probability of having more than one photon in a pulse as this can be exploited
+by Eve to 
 
 \section{Measurement Results and Analysis}
 

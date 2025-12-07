@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.6)  7 DEC 2025 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.6)  7 DEC 2025 17:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -497,30 +497,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.147     \item \textbf
-                       {Error Rate Estimation and eavesdropper detection:} I... [1
+                       {Error Rate Estimation and eavesdropper detection:} T... [1
 
-] [2] [3
+]
+<setup.png, id=68, 374.5995pt x 175.857pt>
+File: setup.png Graphic file (type png)
+<use setup.png>
+Package pdftex.def Info: setup.png  used on input line 185.
+(pdftex.def)             Requested size: 374.59859pt x 175.85657pt.
+
+
+LaTeX Warning: Citation `' on page 2 undefined on input line 186.
+
+
+LaTeX Warning: Citation `' on page 2 undefined on input line 186.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2] [3 <./setup.png>] [4
 
 ] (bb84.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `bb84.out' has not changed.
-(rerunfilecheck)             Checksum: 8DDAAFAC65CBE3295BE9ABA0971EE818;1219.
+(rerunfilecheck)             Checksum: EA8049C7CCAB46E343949EE31AA5EF81;1196.
  ) 
 Here is how much of TeX's memory you used:
- 17672 strings out of 467871
- 343014 string characters out of 5418376
- 729957 words of memory out of 5000000
- 46331 multiletter control sequences out of 15000+600000
- 641861 words of font info for 71 fonts, out of 8000000 for 9000
+ 17700 strings out of 467871
+ 343530 string characters out of 5418376
+ 730070 words of memory out of 5000000
+ 46354 multiletter control sequences out of 15000+600000
+ 642202 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,80p,451b,1183s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on bb84.pdf (5 pages, 146248 bytes).
+ 75i,12n,80p,377b,1183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\ishaa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ishaa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on bb84.pdf (6 pages, 196819 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
